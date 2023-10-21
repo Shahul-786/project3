@@ -1,0 +1,62 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(imges/img2.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+    position: relative;
+  
+ 
+}
+
+@media (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768px */
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for screens between 769px and 1024px */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Styles for screens with a minimum width of 1025px */
+  }
+  
+
+.login-container {
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+}
+.login-container h2 {
+    text-align: center;
+}
+.form-group {
+    margin: 20px 0;
+}
+.form-group label {
+    display: block;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+.form-group button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+

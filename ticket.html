@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" type="text/css" href="ticket.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Ticket Booking</h1>
+        <form action="thankyou.html">
+            <div class="form-group">
+                <label for="movie">Select Movie:</label>
+                <select id="movie" name="movie">
+                    <option value="movie1">Movie 1</option>
+                    <option value="movie2">Movie 2</option>
+                    <option value="movie3">Movie 3</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="form-group">
+                <label for="time">Select Time:</label>
+                <input type="time" id="time" name="time">
+            </div>
+            <div class="form-group">
+                <label for="tickets">Number of Tickets:</label>
+                <input type="number" id="tickets" name="tickets" min="1" max="10">
+            </div>
+            
+            <button type="submit">Book Tickets</button></a>
+        </form>
+    </div>
+</body>
+</html>
